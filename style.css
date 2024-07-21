@@ -44,8 +44,25 @@ main {
     display: flex;
     flex-grow: 1;
     align-items: center;
-    /*box-shadow: 5px 10px #e5e7eb;*/
+    box-shadow: 5px 10px #e5e7eb;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1em;
 }
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 .footer {
     display: flex;
@@ -65,11 +82,17 @@ main {
     width: 100%;
     height: 40%;
     top:100px;
+    flex-grow: 1;
 }
 
-.logo {
-    /*position: absolute;
+.credits {
+    margin-top: auto;
+    color: white;
+}
+
+/*.logo {
+    position: absolute;
     top: 10px;
     right: 120px;
-    width: 40%;/
-}
+    width: 40%;
+}*/
